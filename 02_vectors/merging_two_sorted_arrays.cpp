@@ -46,10 +46,12 @@ int main(){
             j++;
         }
         else {
-            v3[k]=v2[j];
+            v3[k]=v1[i];
             k++;
             v3[k]=v2[j];
             k++;
+            i++;
+            j++;
         }
         // when one array is finished.
         if(i==n1){
