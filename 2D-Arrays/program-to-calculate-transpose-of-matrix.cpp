@@ -17,8 +17,8 @@ int main(){
     }
     int arr2[n][m];
     cout<<"transpose of  matrix : \n";
-      for(int i=0;i<m;i++){
-        for(int j=0;j<n;j++){
+      for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
             arr2[i][j]=arr1[j][i];
             cout<<arr2[i][j]<<" ";
         }
