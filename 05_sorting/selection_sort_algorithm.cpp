@@ -7,6 +7,7 @@ int main(){
     cout<<"enter size of array : ";
     cin>>n;
     vector<int> v(n);
+    cout<<"enter elements of array : ";
     for(int i=0;i<n;i++){
         cin>>v[i];
     }
