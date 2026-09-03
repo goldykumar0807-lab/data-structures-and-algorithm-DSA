@@ -1,5 +1,4 @@
-/*Calculate the number of ways in which a person can climb n stairs if he can take exactly 1, 2 or 3 
-steps at each level.*/
+/*Given a positive integer, return true if it is a power of 2.*/
 #include<iostream>
 using namespace std;
 bool check(int n){
