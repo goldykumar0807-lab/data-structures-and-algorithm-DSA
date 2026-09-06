@@ -2,8 +2,8 @@
 #include<string>
 using namespace std;
 string palindrome(string s, int i,int j){
-    if(i>j) return "yes";
-    if(s[i]!=s[s.size()-1-i]) return"no";
+    if(i>=j) return "yes";
+    if(s[i]!=s[j]) return"no";
     return palindrome(s,i+1,j-1);
 }
 int main(){
