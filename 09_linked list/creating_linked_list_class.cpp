@@ -66,6 +66,7 @@ class Linkedlist{
         x->next=save;
         return;
     }
+    //function for getting element present at any index.
     int get_element(int idx){
         int k=0;
         Node* temp=head;
